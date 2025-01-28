@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0056b3;
+    /* Azul oscuro */
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5rem;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+ul li i,
+p i {
+    margin-right: 0.8rem;
+    color: #0056b3;
+    font-size: 23px;
+}
+
+ul li:hover a,
+ul li:hover .card-timeline,
+ul li:hover i {
+    color: #fff;
+}
+
+a {
+    color: #0056b3;
+    /* Azul oscuro */
+    text-decoration: underline;
+}
+
+/* Timeline */
+.horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+}
+
+.horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+
+.horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    border-right: 2px dashed #dee2e6;
+    top: -20px;
+}
+
+.horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 8px;
+}
+
+@media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+        display: inline-block;
+        width: 33%;
+        padding-top: 45px;
+    }
+
+    .horizontal-timeline .items .items-list .event-date {
+        top: -50px;
+    }
+}
+
+.badge {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.card-timeline {
+    color: #6c757d
+}
+
+.logo-consoft {
+    display: inline-block;
+    width: 232px;
+    /* Tamaño del ícono */
+    height: 29px;
+    background-image: url('logo-consoft.png');
+    /* Ruta de tu imagen PNG */
+    background-size: cover;
+    /* Asegura que la imagen cubra todo el área */
+    background-position: center;
+    padding-bottom: 0;
+}
+
+.icon {
+    width: 23px;
+    /* Cambia el tamaño según lo que necesites */
+    height: 23px;
+    display: inline-block;
+    border-radius: 50%;
+    /* Hace que sea redondeado */
+    overflow: hidden;
+
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta la imagen dentro del contenedor */
+}
+
+.emoji {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
