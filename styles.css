@@ -1,9 +1,11 @@
 body {
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fcfcfc;
     color: #333;
 }
 
